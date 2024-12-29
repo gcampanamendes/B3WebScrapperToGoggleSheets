@@ -1,0 +1,64 @@
+{
+  "config": {
+    "web": {
+		"fii": {
+			"xpath": {
+				"name": "//*[@id=\"carbon_fields_fiis_header-2\"]/div/div/div[1]/p",
+				"ticker": "//*[@id=\"carbon_fields_fiis_header-2\"]/div/div/div[1]/div[1]/p",
+				"segment": "//*[@id=\"carbon_fields_fiis_basic_informations-2\"]/div/div/div[6]/p[2]/b",
+				"anbima": "//*[@id=\"carbon_fields_fiis_basic_informations-2\"]/div/div/div[7]/p[2]/b",
+				"management": "//*[@id=\"carbon_fields_fiis_basic_informations-2\"]/div/div/div[10]/p[2]/b",
+				"price": "//*[@id=\"carbon_fields_fiis_header-2\"]/div/div/div[1]/div[1]/p",
+				"dy30d": "//*[@id=\"indicators\"]/div[2]/p[2]/b",
+				"dy12m": "//*[@id=\"indicators\"]/div[3]/p[2]/b/text()",
+				"dy5y": "",
+				"payoutPerShare12m": "//*[@id=\"indicators\"]/div[3]/p[2]/b",
+				"payoutLast": "//*[@id=\"indicators\"]/div[2]/p[2]/b",
+				"vp": "//*[@id=\"indicators\"]/div[5]/p[2]/b/text()",
+				"pvp": "//*[@id=\"indicators\"]/div[7]/p[2]/b",
+				"vacancy": "",
+				"variation1d": "//*[@id=\"carbon_fields_fiis_header-2\"]/div/div/div[1]/div[1]/span",
+				"variation30d": "//*[@id=\"indicators\"]/div[6]/p[2]/b/text()",
+				"variation12m": "//*[@id=\"carbon_fields_fiis_quotations-2\"]/div/div[1]/div[2]/div[4]/p[1]/text()",
+				"dailyLiquidity": "//*[@id=\"indicators\"]/div[1]/p[2]/b",
+				"quotas": "//*[@id=\"carbon_fields_fiis_basic_informations-2\"]/div/div/div[8]/p[2]/b",
+				"holders": "//*[@id=\"comparadorAtivos\"]/div[2]/div[1]/div/div[2]/ul/li[6]/text()",
+				"networth": "//*[@id=\"comparadorAtivos\"]/div[2]/div[1]/div/div[2]/ul/li[1]/text()"
+        },
+			"url": "https://www.fundsexplorer.com.br/funds/"
+      },
+		"stock": {
+			"xpath": {
+				"name": "/html/body/div/div[1]/section/main/header/div/div/div/div[1]/h2/text()",
+				"ticker": "/html/body/div/div[1]/section/main/header/div/div/div/div[1]/h1",
+				"sector": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[7]/div/div[2]/div/ul/li[1]/p/a",
+				"price": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[1]/div/div[2]/div/section[1]/ul/li[1]/p/span",
+				"pl": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[2]/div[1]/div[2]/div/ul[2]/li[2]/p/span/text()",
+				"pvp": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[2]/div[1]/div[2]/div/ul[2]/li[3]/p/span/text()",
+				"dy": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[2]/div[1]/div[2]/div/ul[2]/li[1]/p/span/text()",
+				"lpa": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[2]/div[1]/div[2]/div/ul[2]/li[4]/p/span/text()",
+				"vpa": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[2]/div[1]/div[2]/div/ul[2]/li[5]/p/span/text()",
+				"variation12m": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[1]/div/div[2]/div/section[1]/ul/li[4]/p/span",
+				"variation1m": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[1]/div/div[2]/div/section[1]/ul/li[3]/p/span",
+				"variation7d": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[1]/div/div[2]/div/section[1]/ul/li[2]/p/span",
+				"tagAlong": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[7]/div/div[2]/div/ul/li[6]/p/span",
+				"roe": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[2]/div[1]/div[2]/div/ul[3]/li[3]/p/span",
+				"roic": "/html/body/div/div[1]/section/main/div[1]/div/div/div[2]/section[2]/div[1]/div[2]/div/ul[3]/li[4]/p/span/text()"
+			},
+			"url": "https://www.analisedeacoes.com/acoes/"
+		}
+    },
+    "sheets": {
+		"credentialsJsonFilePath": "C:\\temp\\your-google-credential-files-here.json",
+		"spreadsheetId": "your-google-sheets-id-here",
+		"sheetNames": {
+				"fii": "your-fii-sheet-name",
+				"stock": "your-stock-sheet-name"
+			}
+    },
+	"portfolios": {
+		"fii": [ "MXRF11", "XPML11" ],
+		"stock": [ "BBAS3", "BBDC4" ]
+	}
+  }
+}
