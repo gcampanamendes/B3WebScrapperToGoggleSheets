@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B3WebScrapperToGoggleSheets", "B3WebScrapperToGoggleSheets.csproj", "{EEB21EEE-6CDA-4CBD-8DBB-6B9AAE3DFD37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEB21EEE-6CDA-4CBD-8DBB-6B9AAE3DFD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB21EEE-6CDA-4CBD-8DBB-6B9AAE3DFD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB21EEE-6CDA-4CBD-8DBB-6B9AAE3DFD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB21EEE-6CDA-4CBD-8DBB-6B9AAE3DFD37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4695C1F-CD96-40AC-AB4E-20E05E1E3EA5}
+	EndGlobalSection
+EndGlobal
